@@ -9,7 +9,7 @@ function AddTableItem({ addData, users}) {
             <select>
             {users ? users.map((user, index) => <UserItem key={index} user={user.name}/>) : 'Loading Users'}
             </select><br />
-            <input type="text" value={value} placeholder="Введите нужный гост" onChange={(event) => setValue(event.target.value)} />
+            <input type="text" value={value.toUpperCase()} placeholder="Введите нужный гост" onChange={(event) => setValue(event.target.value)} />
             <button type='submit'>Отправить</button>
         </form>
     )
