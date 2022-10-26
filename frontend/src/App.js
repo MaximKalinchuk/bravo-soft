@@ -1,8 +1,8 @@
 
 import React, {useState, useEffect} from 'react';
-import AddTableItem from './BSApp/AddTableItem';
+import AddTableItem from './AppItems/AddTableItem';
 import axios from 'axios';
-import Table from './BSApp/Table';
+import Table from './AppItems/Table';
 
 function App() {
 
@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <AddTableItem addData={addData} users={users}/><br />
-        <button onClick={deleteAllDocuments}>Удалить все документы</button>
+        <button className='btn btn-danger' onClick={deleteAllDocuments}>Удалить все документы</button>
       </header>
       <main>
       <Table documents={documents} users={users}/>

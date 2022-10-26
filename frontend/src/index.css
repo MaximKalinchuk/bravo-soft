@@ -12,9 +12,13 @@ code {
     monospace;
 }
 
-.table {
+.mainTable {
   display: flex;
   justify-content: space-around;
+}
+
+.table {
+  width: 900px
 }
 
 .person {
