@@ -65,8 +65,6 @@ function App() {
     setPage(false)
   }
 
-  console.log(page)
-
   if (page) {
     return (
       <div className="App">

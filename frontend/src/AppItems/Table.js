@@ -28,11 +28,11 @@ function Table({ documents, users }) {
     const documentsCopy = documentsCount.slice(0)
     const sortedDocuments = documentsCopy.sort((doc1, doc2) => doc1.count < doc2.count ? 1 : -1);
 
-    console.log(sortedDocuments)
+    // console.log(sortedDocuments)
 
-    // for (const user of users) {
-    //     user.documents = []
-    // }
+    for (const user of users) {
+        user.documents = []
+    }
 
     // for (const user of users) {
     //     // console.log(user)
