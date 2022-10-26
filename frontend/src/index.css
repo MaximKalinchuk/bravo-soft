@@ -21,6 +21,62 @@ code {
   width: 900px
 }
 
+.form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 .person {
   width: 270px;
+}
+
+
+/* Меню */
+.menu{
+  height: 70px;
+  width: 100%;
+  background-color: #212529;
+}
+
+.menu-container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-navbar {
+  list-style-type: none;
+}
+
+.menu-navbar li {
+  display: inline-block;
+}
+
+.menu-navbar li a {
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(207, 207, 207);
+}
+
+.logo {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+
+}
+
+.menu-navbar li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
